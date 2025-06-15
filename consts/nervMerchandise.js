@@ -1,0 +1,145 @@
+import ad1 from '../assets/ad-1.jpg';
+import ad2 from '../assets/ad-2.jpeg';
+
+const nervMerchandise = [
+  {
+    id: '1',
+    name: 'NERV Logo T-Shirt',
+    description: 'Official NERV organization logo printed on premium cotton',
+    price: 29.99,
+    rating: 4.8,
+    reviews: 342,
+    image: ad1,
+    category: 'Apparel',
+    featured: true,
+    link: 'https://www.redbubble.com/shop/nerv+evangelion+t-shirts',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Black', 'White', 'Red']
+  },
+  {
+    id: '2',
+    name: 'Evangelion Unit-01 Model Kit',
+    description: 'High-quality plastic model kit of Evangelion Unit-01',
+    price: 89.99,
+    rating: 4.9,
+    reviews: 512,
+    image: ad2,
+    category: 'Models',
+    featured: true,
+    link: 'https://www.hlj.com/evangelion-model-kits',
+    scale: '1/400',
+    difficulty: 'Intermediate'
+  },
+  {
+    id: '3',
+    name: 'NERV Laptop Decal',
+    description: 'Vinyl sticker with NERV logo for laptops and devices',
+    price: 8.99,
+    rating: 4.7,
+    reviews: 215,
+    image: 'https://example.com/nerv-decal.jpg',
+    category: 'Accessories',
+    featured: false,
+    link: 'https://www.etsy.com/listing/nerv-laptop-decal',
+    dimensions: '3" x 3"'
+  },
+  {
+    id: '4',
+    name: 'Evangelion Soundtrack Vinyl',
+    description: 'Limited edition vinyl of the iconic Evangelion soundtrack',
+    price: 49.99,
+    rating: 5.0,
+    reviews: 187,
+    image: 'https://example.com/evangelion-vinyl.jpg',
+    category: 'Music',
+    featured: true,
+    link: 'https://www.rightstufanime.com/evangelion-vinyl',
+    tracks: 24,
+    limited: true
+  },
+  {
+    id: '5',
+    name: 'NERV ID Badge Replica',
+    description: 'Screen-accurate replica of NERV employee identification badge',
+    price: 24.99,
+    rating: 4.6,
+    reviews: 398,
+    image: 'https://example.com/nerv-badge.jpg',
+    category: 'Collectibles',
+    featured: false,
+    link: 'https://www.animecollectibles.com/nerv-badge',
+    material: 'Metal'
+  },
+  {
+    id: '6',
+    name: 'Evangelion Art Book',
+    description: 'Hardcover collection of Evangelion concept art and illustrations',
+    price: 59.99,
+    rating: 4.9,
+    reviews: 276,
+    image: 'https://example.com/evangelion-artbook.jpg',
+    category: 'Books',
+    featured: true,
+    link: 'https://www.amazon.com/evangelion-art-book',
+    pages: 240,
+    language: 'Japanese/English'
+  },
+  {
+    id: '7',
+    name: 'NERV Hoodie',
+    description: 'Warm hoodie featuring the NERV logo and geometric patterns',
+    price: 64.99,
+    rating: 4.7,
+    reviews: 421,
+    image: 'https://example.com/nerv-hoodie.jpg',
+    category: 'Apparel',
+    featured: true,
+    link: 'https://www.teepublic.com/nerv-hoodie',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Black', 'Dark Green']
+  },
+  {
+    id: '8',
+    name: 'LCL Bath Salts',
+    description: 'Recreate the LCL experience with these orange bath salts',
+    price: 19.99,
+    rating: 4.3,
+    reviews: 154,
+    image: 'https://example.com/lcl-salts.jpg',
+    category: 'Novelty',
+    featured: false,
+    link: 'https://www.thinkgeek.com/lcl-bath-salts',
+    scent: 'Orange',
+    weight: '16oz'
+  },
+  {
+    id: '9',
+    name: 'Evangelion Blu-ray Collection',
+    description: 'Complete series + movies in high-definition with bonus content',
+    price: 129.99,
+    rating: 4.9,
+    reviews: 687,
+    image: 'https://example.com/evangelion-bluray.jpg',
+    category: 'Media',
+    featured: true,
+    link: 'https://www.rightstufanime.com/evangelion-bluray',
+    episodes: 26,
+    movies: 4
+  },
+  {
+    id: '10',
+    name: 'NERV Desk Lamp',
+    description: 'Officially licensed NERV-themed LED desk lamp',
+    price: 79.99,
+    rating: 4.5,
+    reviews: 98,
+    image: 'https://example.com/nerv-lamp.jpg',
+    category: 'Home',
+    featured: true,
+    link: 'https://www.goodsmile.info/nerv-lamp',
+    color: 'Red',
+    adjustable: true
+  }
+];
+
+export default nervMerchandise;
